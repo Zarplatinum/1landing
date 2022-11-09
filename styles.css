@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/BG.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    background-color: #faad07;
+    color: #fafafa;
+    border: 2px solid slategrey;
+    font-weight: bolder;
+    font-size: 36px;
+    justify-content: center;
+    left: 0px;
+    top: 0px;
+}
+.photo {
+    display: flex;
+    margin: 25px auto;    
+    justify-content: center;
+      }
+.text {
+    display: flex;
+    border: 1px solid slategrey;
+    margin: 5px auto;
+    width: 900px;
+    height: fit-content;
+    background-color: #fffdfd15;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+p {
+    display: flex;
+    justify-content: space-around;
+}
+.gif-grid-container {
+    display: flex;
+    justify-content: center;
+    }
+.gif-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+.gif-grid-item {
+    display: flex;
+    }
+.footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+            color: #fafafa;
+            background-color: #c48208;
+            border: 1px solid slategrey;
+            padding: 10px;
+        flex-direction: column;
+        }
+        .footer-item {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            
+          }
+    .logo {
+        display: flex;
+                justify-content: center;
+        align-self: center;
+        margin-top: 2px;
+    }
+          a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    text-decoration: underline;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+a:visited:hover {
+    color: orange;
+}
+a:visited:active {
+    color: red;    
+}
+p:last-of-type {
+    margin-bottom: 50px;
+}
